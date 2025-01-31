@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     font-family:'Times New Roman', Times, serif;
-
+    background-color: pink
     
 }
 ul{
@@ -19,7 +19,7 @@ ul{
     width:auto;
     flex-direction: column;
     align-items: center;
-    align-self: cente;
+    align-self: center;
     grid-template-columns: 1fr;
     border-radius: 2rem;
     padding-bottom: 4rem;
@@ -58,14 +58,16 @@ li{
     height: 3rem;
     width:7rem;
 }
-.numPadFirstThree{
-    
-}
 #one,#two,#three,#four,#five,#six,#seven,#eight,#nine{
     width:3rem;
     height:3rem;
 }
 #zero{
-    width:12rem;
+    width:6rem;
     height:3rem;
+}
+#backspace{
+    width:3rem;
+    height:3rem;
+    margin-left: 3px;
 }
