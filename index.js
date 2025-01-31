@@ -24,6 +24,7 @@ let backSpaceBtn=document.getElementById("backspace");
 
 generateBtn.addEventListener('click',()=>{
     inArea.value="";
+    resultBtn.style.backgroundColor=" rgb(157, 158, 150)"
     resultBtn.innerText="Result";
     const min=0;
     const max=100;
@@ -42,6 +43,7 @@ submitBtn.addEventListener('click',()=>{
     if(sum==inArea.value){
         resultBtn.innerText="yayy, You got it right";
         inArea.value="";
+        resultBtn.style.backgroundColor="#73EC8B";
     
     }
     else if(inArea.value==""){
@@ -50,6 +52,7 @@ submitBtn.addEventListener('click',()=>{
     }
     else{
         resultBtn.innerText=`Oops, Correct Answer: ${sum}`;
+        resultBtn.style.backgroundColor="#E82561"; 
     }
 })
 
